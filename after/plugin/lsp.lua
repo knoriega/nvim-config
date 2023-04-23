@@ -18,7 +18,7 @@ local cmp_mappings = lsp.defaults.cmp_mappings({
 })
 
 lsp.set_preferences({
-	sign_icon = { }
+	sign_icons = { }
 })
 
 lsp.on_attach(function(client, bufnr)
